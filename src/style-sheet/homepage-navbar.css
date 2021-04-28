@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+  This is only for the navigation bar. The position is set as aboslute 
+  so that it sits on top of the background of the front-page content.
+*/
+.navbar-parent-container {
+  /*position: absolute;*/
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0px 0px 0px !important;
+}
+/*
+This is the actual text of the navbar.
+*/
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  padding: 0 20px;
+  font-size: large;
+}
+.form-input {
+  padding: 0 !important;
+}
+.error-msg {
+  color: #ec2121;
+}
+
+.buttonText {
+  font-size: large !important;
+  margin-top: 0.2rem;
+  margin-bottom: 0.1rem;
+  margin-left: 20px;
+  padding: 2px 10px !important;
+  border-radius: 50px !important;
+  background: white !important;
+  border: white 1px solid !important;
+  color: rgb(0, 148, 151) !important;
+  font-family: "Rubik", sans-serif;
+  box-shadow: 5px 5px 22px #007577, -5px -5px 22px #00b3b7;
+}
+
+.haveAnAcc {
+  cursor: pointer;
+  margin-right: 150px !important;
+}
+.createAcc {
+  /*margin-right: 130px !important;*/
+  cursor: pointer;
+}
+.hrNavBar {
+  border-top: 1px solid rgba(205, 205, 205, 0.8) !important;
+  margin-bottom: 0 !important;
+}
+/* LOGIN BUTTON */
+.login {
+  transition: 0.5s;
+  color: #d2d2d2 !important;
+  font-size: large !important;
+  font-weight: 500 !important;
+  border: none !important;
+}
+.login:hover {
+  text-decoration: none !important;
+  color: white !important;
+  transition: 300ms all ease-in;
+}
+/*----------------------*/
+
+.navbar-light .navbar-nav .nav-link:hover {
+  transition: 0.5s;
+  color: #d9707a !important;
+}
+.companyName {
+  text-align: left!important;
+  color: white !important;
+}
+.companyName:hover {
+  transition: 0.5s;
+  color: #d9707a !important;
+}
+.loginBtn{
+  text-align: right;
+}
+.modal-footer{
+  display: inline !important;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .nav-link {
+    margin-top: 7px;
+  }
+  .login {
+    margin-left: 30px;
+
+  }
+  .buttonText {
+    padding: 0px 10px !important;
+  }
+  .alreadyHaveAcc{
+    width: 200px;
+  }
+  .haveAnAcc {
+    margin-right: 0 !important;
+  }
+}

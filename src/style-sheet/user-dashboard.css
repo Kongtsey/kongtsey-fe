@@ -1,0 +1,17 @@
+.statsBoard {
+  color: black;
+}
+@media (max-width: 450px) {
+  .statsBoard {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+.btn-lg {
+  border-radius: 1.5rem !important;
+  margin-top: 1rem;
+}
+.practiceButton {
+  margin-left: 1.25rem;
+}

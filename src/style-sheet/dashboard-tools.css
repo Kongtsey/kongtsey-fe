@@ -1,0 +1,22 @@
+.dashboardtool-parent-div {
+  padding-top: 40px;
+  padding-left: 30px;
+  background: #c5c3c34f;
+  height: 100vh;
+}
+.tools-title {
+  padding-left: 20px;
+  margin-bottom: -10px;
+}
+
+.tools-sublist-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.tools-sublist-list:hover {
+  background: white;
+}
+.dboardTool{
+  padding-left: 0 !important;
+}

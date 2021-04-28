@@ -1,0 +1,39 @@
+.colorBox {
+    height: 15px;
+    width: 15px;
+    border-style: solid;
+    border-width: 4px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.correctAnswerBox {
+
+    float: left;
+    border-color: #3577CFFD;
+    background-color: #3577CFFD;
+}
+.incorrectAnswerBox {
+    float: left;
+    border-color: transparent;
+    background-color: #FF4B32A9;
+}
+.description{
+    font-size: 0.9rem;
+    margin-top: 3px;
+    font-weight: 400;
+
+}
+.dataDescription{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    justify-content: center;
+}
+.pieTopic{
+    color: black;
+    text-align: center;
+}
+.noData{
+    font-size: 25px;
+}

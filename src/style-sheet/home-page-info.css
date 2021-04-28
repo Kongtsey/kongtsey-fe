@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css");
+.homepage-info-parent-div {
+  margin-top: 100px;
+  background: #e7e7e7;
+}
+.info_description {
+  background-color: #007bff;
+  padding: 50px !important;
+  text-align: justify !important;
+}
+.info_description_title {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+.info_description_content {
+  color: #ffe7e7;
+  line-height: 40px;
+}
+.info_description_image {
+  padding: 50px;
+}
+.info_description_image img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+.info_description_subsection {
+  margin: 50px 0;
+}
+.content_before_footer {
+  font-size: 200px;
+  text-align: center;
+  background: #0000001a;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+  animation-duration: 0.75s;
+}
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  animation-duration: 0.75s;
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

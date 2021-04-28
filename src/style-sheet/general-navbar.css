@@ -1,0 +1,17 @@
+.nav-link {
+  color: white !important;
+  margin-left: 20px !important;
+}
+.user_profile_picture {
+  font-size: xx-large;
+  margin-left: -20px;
+  margin-top: -2px;
+}
+.logo {
+  width: auto;
+  height: 50px;
+  padding-bottom: 9px;
+}
+.feedbackLink {
+  color: #007bff !important;
+}
